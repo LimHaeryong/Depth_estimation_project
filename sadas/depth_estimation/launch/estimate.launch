@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="Depth_Estimation" pkg="depth_estimation" type="depth_estimation_node" output="screen"/>
+  <param name="config_calibration_path" type="str" value="$(find depth_estimation)/config/config_calibration.yaml"/>
+
+</launch>
