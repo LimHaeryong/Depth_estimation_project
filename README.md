@@ -1,4 +1,4 @@
-# Pull Request Template
+# Traffic Sign Depth Estimation
 
 ## Team Introduction
 - 팀원 및 역할 소개
@@ -72,8 +72,6 @@ Homography 행렬을 이용해 탁구공과 지면이 닿는 점을 추정하여
 
 2D Lidar를 이용해 바운딩박스 내부에 포함된 point들의 값을 평균내 위치 추정.
 2D Lidar가 약 4도정도 기울어져(pitch) 이를 보정하기 위해 Lidar - Xycar 좌표계 사이의 Transform을 계산해 적용해주었다.
-
-## Lesson Learn (정답은 없습니다. 자유롭게 생각해보세요.)
 
 - Camera 기반의 거리추정 방법의 장/단점
 
